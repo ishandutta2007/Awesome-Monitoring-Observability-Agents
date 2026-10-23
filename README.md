@@ -70,7 +70,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
 
 *Projects are ordered descending by their GitHub Stargazer count:*
 
-### 1. 🌟 [Netdata](https://github.com/netdata/netdata) [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
+### 1. 🌟 [Netdata](https://github.com/netdata/netdata) [![GitHub_Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
 - **Primary Focus**: Real-time, per-second infrastructure monitoring and diagnostics.
 - **License**: GPL-3.0 | **Primary Language**: C / Go / Python
 - **Key Capabilities**:
@@ -79,7 +79,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Features an embedded lockless in-memory time-series database and an instant local web dashboard.
   - Native alert engine with 20+ notification integrations (Slack, PagerDuty, Discord, Email).
 
-### 2. 🌟 [Glances](https://github.com/nicolargo/glances) [![GitHub stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)
+### 2. 🌟 [Glances](https://github.com/nicolargo/glances) [![GitHub_Stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)
 - **Primary Focus**: Cross-platform system telemetry and lightweight monitoring daemon.
 - **License**: LGPL-3.0 | **Primary Language**: Python
 - **Key Capabilities**:
@@ -87,7 +87,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Dynamic visual indicators for hardware utilization, Docker/Podman container stats, GPU metrics, and processes.
   - Exports collected telemetry to backends including InfluxDB, Prometheus, OpenSearch, Kafka, and CSV.
 
-### 3. 🌟 [SigNoz](https://github.com/SigNoz/signoz) [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+### 3. 🌟 [SigNoz](https://github.com/SigNoz/signoz) [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
 - **Primary Focus**: Full-stack OpenTelemetry-native application performance monitoring (APM).
 - **License**: Apache-2.0 / BSL | **Primary Language**: Go / TypeScript
 - **Key Capabilities**:
@@ -95,7 +95,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Combines metrics, distributed traces, and log streams inside an intuitive unified UI backed by ClickHouse.
   - Offers custom dashboarding, automated anomaly detection, service dependency maps, and p99 latency breakdowns.
 
-### 4. 🌟 [Vector](https://github.com/vectordotdev/vector) [![GitHub stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)
+### 4. 🌟 [Vector](https://github.com/vectordotdev/vector) [![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)
 - **Primary Focus**: Ultra-high-throughput, memory-safe observability data pipeline agent.
 - **License**: MPL-2.0 | **Primary Language**: Rust
 - **Key Capabilities**:
@@ -103,7 +103,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Native Vector Remap Language (VRL) for real-time log transformation, field enrichment, and compliance data scrubbing.
   - Connects hundreds of inputs (Kafka, syslog, files, AWS S3) to dozens of downstream backends (OpenTelemetry, Elasticsearch, Datadog, ClickHouse).
 
-### 5. 🌟 [cAdvisor](https://github.com/google/cadvisor) [![GitHub stars](https://img.shields.io/github/stars/google/cadvisor?style=social&color=white)](https://github.com/google/cadvisor/stargazers)
+### 5. 🌟 [cAdvisor](https://github.com/google/cadvisor) [![GitHub_Stars](https://img.shields.io/github/stars/google/cadvisor?style=social&color=white)](https://github.com/google/cadvisor/stargazers)
 - **Primary Focus**: Container resource analysis and performance telemetry.
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Key Capabilities**:
@@ -111,7 +111,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Automatically discovers all running containers and measures resource isolation, memory limits, and network stats.
   - Exposes native Prometheus format endpoints for node-level container scrape targets.
 
-### 6. 🌟 [VictoriaMetrics (vmagent)](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
+### 6. 🌟 [VictoriaMetrics (vmagent)](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
 - **Primary Focus**: Lightweight Prometheus-compatible metric scraper and router agent.
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Key Capabilities**:
@@ -119,7 +119,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Ingests Prometheus, InfluxDB, Graphite, OpenTelemetry, and DataDog formatted metrics.
   - Built-in on-disk buffering ensures zero metric loss during network outages or upstream maintenance windows.
 
-### 7. 🌟 [Telegraf](https://github.com/influxdata/telegraf) [![GitHub stars](https://img.shields.io/github/stars/influxdata/telegraf?style=social&color=white)](https://github.com/influxdata/telegraf/stargazers)
+### 7. 🌟 [Telegraf](https://github.com/influxdata/telegraf) [![GitHub_Stars](https://img.shields.io/github/stars/influxdata/telegraf?style=social&color=white)](https://github.com/influxdata/telegraf/stargazers)
 - **Primary Focus**: Plugin-driven server agent for collecting and reporting metrics.
 - **License**: MIT | **Primary Language**: Go
 - **Key Capabilities**:
@@ -127,7 +127,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Deep coverage across industrial protocols (OPC UA, Modbus), cloud APIs, databases (PostgreSQL, MySQL), and IoT message brokers (MQTT).
   - Clean TOML-based declarative configuration with processor and aggregator pipelines.
 
-### 8. 🌟 [Node Exporter](https://github.com/prometheus/node_exporter) [![GitHub stars](https://img.shields.io/github/stars/prometheus/node_exporter?style=social&color=white)](https://github.com/prometheus/node_exporter/stargazers)
+### 8. 🌟 [Node Exporter](https://github.com/prometheus/node_exporter) [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/node_exporter?style=social&color=white)](https://github.com/prometheus/node_exporter/stargazers)
 - **Primary Focus**: Kernel and hardware metrics collector for Linux/Unix machines.
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Key Capabilities**:
@@ -135,7 +135,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Collects non-invasive system counters: CPU frequency, filesystem saturation, memory pressure (PSI), network socket queues, and thermal limits.
   - Extensible via custom textfile collector scripts.
 
-### 9. 🌟 [Fluentd](https://github.com/fluent/fluentd) [![GitHub stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)
+### 9. 🌟 [Fluentd](https://github.com/fluent/fluentd) [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)
 - **Primary Focus**: Unified logging layer and event aggregator.
 - **License**: Apache-2.0 | **Primary Language**: Ruby / C
 - **Key Capabilities**:
@@ -143,7 +143,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Rich plugin repository with 1,000+ connectors for legacy storage, message queues, and cloud warehouses.
   - Robust buffering and failover mechanisms ensuring reliable log transmission.
 
-### 10. 🌟 [Elastic Beats](https://github.com/elastic/beats) [![GitHub stars](https://img.shields.io/github/stars/elastic/beats?style=social&color=white)](https://github.com/elastic/beats/stargazers)
+### 10. 🌟 [Elastic Beats](https://github.com/elastic/beats) [![GitHub_Stars](https://img.shields.io/github/stars/elastic/beats?style=social&color=white)](https://github.com/elastic/beats/stargazers)
 - **Primary Focus**: Lightweight single-purpose data shippers for the Elastic Stack.
 - **License**: Elastic-2.0 / SSPL | **Primary Language**: Go
 - **Key Capabilities**:
@@ -151,7 +151,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Built-in ingestion modules with pre-packaged dashboards for NGINX, Apache, Kafka, Systemd, and Kubernetes.
   - Seamless backpressure management and direct ingestion into Elasticsearch and Logstash.
 
-### 11. 🌟 [Fluent Bit](https://github.com/fluent/fluent-bit) [![GitHub stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)
+### 11. 🌟 [Fluent Bit](https://github.com/fluent/fluent-bit) [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)
 - **Primary Focus**: Lightweight, high-performance telemetry agent for logs, metrics, and traces.
 - **License**: Apache-2.0 | **Primary Language**: C
 - **Key Capabilities**:
@@ -159,7 +159,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Built-in SQL stream processing for on-the-fly filtering, data enrichment, and transformation.
   - 100+ native plugins with TLS/SSL encryption, async I/O, and native OpenTelemetry ingestion and emission.
 
-### 12. 🌟 [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
+### 12. 🌟 [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
 - **Primary Focus**: CNCF vendor-agnostic proxy and pipeline processor for OTel telemetry signals.
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Key Capabilities**:
@@ -167,7 +167,7 @@ The open-source monitoring agent ecosystem offers battle-tested collectors and h
   - Decouples application instrumentation from vendors; switch backends by updating pipeline YAML without code changes.
   - `otelcol-contrib` distribution features hundreds of community receivers, tail-based sampling processors, and multi-destination exporters.
 
-### 13. 🌟 [Grafana Alloy](https://github.com/grafana/alloy) [![GitHub stars](https://img.shields.io/github/stars/grafana/alloy?style=social&color=white)](https://github.com/grafana/alloy/stargazers)
+### 13. 🌟 [Grafana Alloy](https://github.com/grafana/alloy) [![GitHub_Stars](https://img.shields.io/github/stars/grafana/alloy?style=social&color=white)](https://github.com/grafana/alloy/stargazers)
 - **Primary Focus**: Vendor-neutral distribution of OpenTelemetry Collector with native Grafana ecosystem pipelines.
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Key Capabilities**:
@@ -208,7 +208,7 @@ Contributions to expand and update this ecosystem guide are warmly encouraged:
 
 1. **Fork the Repository** on GitHub.
 2. **Add or Edit Entries** in [README.md](file:///C:/Users/hp/Documents/Projects/Awesome-Monitoring-Observability-Agents/README.md) following the established tabular and list structures.
-3. **Verify Data**: Ensure pricing, free tier limits, star badges, and links are accurate and factual.
+3. **Verify Data**: Ensure pricing, free tier limits, Stars_Badges, and links are accurate and factual.
 4. **Submit a Pull Request** with a concise description of your additions.
 
 ---
